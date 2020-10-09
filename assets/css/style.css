@@ -2,6 +2,14 @@ body{
   text-align: center;
 }
 
+.bg-green{
+  background-color: green;
+}
+
+.bg-yellow{
+  background-color: yellow;
+}
+
 .product{
   width: 300px;
   position: relative;
@@ -20,12 +28,9 @@ body{
   bottom: 5px;
   left: 0px;
   font-size: 40px;
+  display: none;
 }
 
-.bg-green{
-  background-color: green;
-}
-
-.bg-yellow{
-  background-color: yellow;
+.product:hover .heart{
+  display: block;
 }
