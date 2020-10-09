@@ -10,10 +10,18 @@ body{
   background-color: yellow;
 }
 
+.products_row:first-of-type{
+  margin-bottom: 40px;
+}
+
 .product{
   width: 300px;
   position: relative;
   display: inline-block;
+}
+
+.product:hover{
+  cursor: pointer;
 }
 
 .discount{
