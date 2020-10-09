@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+}
+
+.product{
+  width: 300px;
+  position: relative;
+  display: inline-block;
+}
+
+.discount{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.bg-yellow{
+  background-color: yellow;
+}
